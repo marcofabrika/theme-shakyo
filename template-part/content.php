@@ -25,4 +25,12 @@
 				theme_shakyo_posted_by();
 			?>
 		</div><!-- .entry-meta -->
-	</header>
+		<?php
+		endif; ?>
+	</header><!-- .entry-header -->
+
+	<?php theme_shakyo_post_thumbnail(); ?>
+
+	<div class="entry-content">
+
+	</div>
