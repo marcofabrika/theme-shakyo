@@ -34,6 +34,8 @@
 			?></p>
 
 		<?php elseif ( is_search() ) : ?>
+
+			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'theme-shakyo' ); ?></p>
 	</div>
 
 </section>
