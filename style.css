@@ -142,3 +142,20 @@ svg:not(:root) {
 figure {
 	margin: 1em 40px;
 }
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace,monospace;
+	font-size: 1em;
+}
