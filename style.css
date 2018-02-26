@@ -3,10 +3,10 @@ Theme Name: theme-shakyo
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
-Description: Desctiption
+Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
-License: URI: LICENSE
+License URI: LICENSE
 Text Domain: theme-shakyo
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
@@ -14,7 +14,7 @@ This theme, like WordPress, is lisenced under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 theme-shakyo is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the term of the GNU GPL v2 or later.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
@@ -40,10 +40,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
----------------------------------------------------------------*/
-/*---------------------------------------------------------------
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
 # Normalize
----------------------------------------------------------------*/
+--------------------------------------------------------------*/
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -131,6 +131,14 @@ sup {
 	vertical-align: baseline;
 }
 
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
 img {
 	border: 0;
 }
@@ -204,6 +212,22 @@ input {
 
 input[type="checkbox"],
 input[type="radio"] {
-	box-sizng: border-box;
+	box-sizing: border-box;
 	padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
 }
