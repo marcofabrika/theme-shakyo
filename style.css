@@ -280,10 +280,14 @@ p {
 }
 
 dfn, cite, em, i {
-	font-size: italic;
+	font-style: italic;
 }
 
 blockquote {
+	margin: 0 0 1.5em;
+}
+
+address {
 	margin: 0 0 1.5em;
 }
 
@@ -387,3 +391,4 @@ table {
 	margin: 0 0 1.5em;
 	width: 100%;
 }
+
